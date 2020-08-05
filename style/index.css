@@ -1,0 +1,16 @@
+header {
+    width: 980px;
+    height: 250px;
+}
+
+header img {
+    width: 450px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.language {
+    width: 25px;
+    height: 25px;
+   
+}
