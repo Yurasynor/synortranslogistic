@@ -1,152 +1,223 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SynorTransLogistic</title>
-    <link rel="stylesheet" href="../style/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SynorTransLogistic</title>
+	<link rel="stylesheet" href="../style/index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+		integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
 </head>
+
 <body>
 
-    <header>
-        <img src="images/synor_trans_logistic_logo.png" width="450" alt="synor_trans_logistic_logo">
-        <div class="language">
-            <a href="#">UA</a>
-            <a href="#">EN</a>
-        </div>
+	<header>
+		<img src="images/synor_trans_logistic_logo.png" width="450" alt="synor_trans_logistic_logo">
     </header>
-        
-    <nav>
-        <ul class="topmenu">
-            <li><a href="#">Про нас</a></li>
-            <li><a href="#">Послуги<i class="fa fa-angel-down"></i></a>
-                <ul class="submenu">
-                    <li><a href="#">Повні вантажі</a></li>
-                    <li><a href="#">Збірні вантажі</a></li>
-                    <li><a href="#">Послуги логіста</a></li>
-                    <li><a href="#">Послуги брокера</a></li>
-                </ul>          
-            </li>
-            <li><a href="#">Співпраця<i class="fa fa-angle-down"></i></a>
-                <ul class="submenu">
-                    <li><a href="#">Клієнтам</a></li>
-                    <li><a href="#">Партнерам</a></li>
-                    <li><a href="#">Кар`єра</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Контакти</a></li>
-        </ul>
-    </nav>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <main>
-        <section class="promo-video">
-            <video width="700" height="300" autoplay="autoplay" loop="loop" controls="controls">
-                <source src="video/promo.mp4" type="video/mp4">
-            </video>
-        </section>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Про нас <span class="sr-only">(current)</span></a>
+					</li>
 
-        <section class="promo-photos">
-            <article class="individual">
-                <h1>Індивідуальний підхід</h1>
-                <p>Команда кваліфікованих спеціалістів працює цілодобово і завжди готова прийти клієнтам на допомогу.  
-                   Одним із пріоритетів нашої компанії є індивідуальний підхід. Ми піклуємося про те, 
-                   щоб кожен клієнт залишився задоволений виконаною роботою і отриманим результатом, 
-                   який є нашим спільним успіхом. </p>
-                <img width="300" height="200" src="images/individual.jpg" alt="download process">    
-            </article>
-            <article class="drivers">
-                <h1>Водії - професіонали</h1>
-                <p>Власна система оцінки якості водіїв. Кожний водій приходить обов`язковий курс економічного
-                   (ECO-Driving)  і безпечного керування. Наші водії - професіонали своєї справи</p>
-                <img width="300" height="200" src="images/driver.jpg" alt="our driver"> 
-            </article>
-            <article class="progress">
-                <h1>Сталий розвиток</h1>
-                <p>Ми піклуємося про навколишнє середовище. Наш автопарк постійно поновлюється новою і надійною технікою,
-                   яка відповідає стандартам Євро-6. </p>
-                <img width="300" height="200" src="images/progress.jpg" alt="our track"> 
-            </article>
-        </section>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Послуги
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Повні вантажі</a>
+							<a class="dropdown-item" href="#">Збірні вантажі</a>
+							<a class="dropdown-item" href="#">Послуги логіста</a>
+							<a class="dropdown-item" href="#">Послуги брокера</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Інше</a>
+						</div>
+					</li>
 
-        <section class="infotmation">
-            <article class="two_person">
-                <p>Можливість здійснювати перевезення двома водіями</p>
-                <img width="50" height="50" src="images/two-persons.png" alt="two_persons_icon">
-            </article>
-            <article class="delivery">
-                <p>Нове надійне обладнання, всі транспортні засоби не старіше трьох років</p>
-                <img width="50" height="50" src="images/delivery-truck.png" alt="delivery_truck_icon">
-            </article>
-            <article class="temperature">
-                <p>Надійний контроль температурного режиму при перевезенні вантажу</p>
-                <img width="50" height="50" src="images/frozen.png" alt="frozen_icon">
-            </article>
-            <article class="work_time">
-                <p>Ми працюємо цілодобово і розмовляємо іноземними мовами</p>
-                <img width="50" height="50" src="images/time.png" alt="time_icon">
-            </article>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Співпраця
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Клієнтам</a>
+							<a class="dropdown-item" href="#">Партнерам</a>
+							<a class="dropdown-item" href="#">Кар'єра</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Контакти <span class="sr-only">(current)</span></a>
+					</li>
 
-        </section>
-    </main>
+				</ul>
 
-    <footer>
-        <div class="footer-left"> 
-            <img src="images/synor_trans_logistic_logo.png" width="150" alt="synor_trans_logistic_logo">
-            <p class="footer-links">
-				<a href="#" class="link-1">Про нас</a>
-				<a href="#">Послуги</a>
-				<a href="#">Співпраця</a>
-				<a href="#">Контакти</a>
-		    </p>
-            <p class="footer-company-name">SynorTransLogistic © 2018</p>
-        </div>
-            
-        <div class="footer-center">
-            <div>
-                <img src="images/pin.png" width="30" alt="location_icon">
-				<i class="fa fa-map-marker"></i>
-				<p><span>81110 Зимна Вода</span> Львівська обл, Україна</p>
 			</div>
-            <div>
-                <img src="images/phone-call.png" width="30" alt="phone_icon">
-				<i class="fa fa-phone"></i>
-				<p>+38987100000</p>
-			</div>
-			<div>
-                <img src="images/email.png" width="30" alt="email_icon">
-				<i class="fa fa-envelope"></i>
-				<p><a href="yurasynor@gmail.com">synor_trans_logistic@gmail.com</a></p>
-			</div>
-        </div>
-        <div class="footer-right">
-            <p> Прорахувати вартість перевезення та отримати консультацію</p>
-            <form action="/yurasynor@gmail.com" method="post">
-                <ul>
-                    <li>
-                        <label for="name">Ім`я:</label>
-                        <input type="text" id="name" name="user_name">
-                    </li>
-                    <li>
-                        <label for="mail">Телефон:</label>
-                        <input type="tel" id="tel" name="user_phone">
-                    </li>
-                    <li>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email">
-                    </li>
-                    <li>
-                        <label for="msg">Повідомлення:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                </ul>
-                <p><input type="submit" value="Надіслати"></p>
-            </form>
-        </div>
-    </footer>
+		</nav>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+		<main>
+			<section class="promo-video">
+				<video width="700" height="300" autoplay="autoplay" loop="loop" controls="controls">
+					<source src="video/promo.mp4" type="video/mp4">
+				</video>
+			</section>
+
+			<section class="promo-photos">
+
+				<div class="card"   style="width: 200px;">
+					<img class="card-img-top" src="images/individual.jpg" alt="download_process">
+					<div class="card-body">
+						<h5 class="card-title">Індивідуальний підхід</h5>
+						<p class="card-text">Команда кваліфікованих спеціалістів працює цілодобово і завжди готова
+							прийти клієнтам на
+							допомогу.Одним із пріоритетів нашої компанії є індивідуальний підхід. Ми піклуємося про те,
+							щоб кожен клієнт залишився задоволений виконаною роботою і отриманим результатом,
+							який є нашим спільним успіхом.</p>
+					</div>
+				</div>
+				<div class="card"   style="width: 200px;">
+					<img class="card-img-top" src="images/driver.jpg" alt="Our drivers">
+					<div class="card-body">
+						<h5 class="card-title">Водії - професіонали</h5>
+						<p class="card-text">Власна система оцінки якості водіїв. Кожний водій приходить обов`язковий
+							курс економічного
+							(ECO-Driving) і безпечного керування. Наші водії - професіонали своєї справи</p>
+					</div>
+				</div>
+				<div class="card" style="width: 200px;">
+					<img class="card-img-top" src="images/progress.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Сталий розвиток</h5>
+						<p class="card-text">Ми піклуємося про навколишнє середовище. Наш автопарк постійно поновлюється
+							новою і
+							надійною технікою,
+							яка відповідає стандартам Євро-6.</p>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+				<article class="individual">
+					<h1>Індивідуальний підхід</h1>
+					<p>Команда кваліфікованих спеціалістів працює цілодобово і завжди готова прийти клієнтам на
+						допомогу.
+						Одним із пріоритетів нашої компанії є індивідуальний підхід. Ми піклуємося про те,
+						щоб кожен клієнт залишився задоволений виконаною роботою і отриманим результатом,
+						який є нашим спільним успіхом. </p>
+					<img width="300" height="200" src="images/individual.jpg" alt="download process">
+            </article>
+					<article class="drivers">
+						<h1>Водії - професіонали</h1>
+						<p>Власна система оцінки якості водіїв. Кожний водій приходить обов`язковий курс економічного
+							(ECO-Driving) і безпечного керування. Наші водії - професіонали своєї справи</p>
+						<img width="300" height="200" src="images/driver.jpg" alt="our driver">
+            </article>
+						<article class="progress">
+							<h1>Сталий розвиток</h1>
+							<p>Ми піклуємося про навколишнє середовище. Наш автопарк постійно поновлюється новою і
+								надійною технікою,
+								яка відповідає стандартам Євро-6. </p>
+							<img width="300" height="200" src="images/progress.jpg" alt="our track">
+            </article>
+			</section>
+
+			<section class="infotmation">
+				<article class="two_person">
+					<p>Можливість здійснювати перевезення двома водіями</p>
+					<img width="50" height="50" src="images/two-persons.png" alt="two_persons_icon">
+            </article>
+					<article class="delivery">
+						<p>Нове надійне обладнання, всі транспортні засоби не старіше трьох років</p>
+						<img width="50" height="50" src="images/delivery-truck.png" alt="delivery_truck_icon">
+            </article>
+						<article class="temperature">
+							<p>Надійний контроль температурного режиму при перевезенні вантажу</p>
+							<img width="50" height="50" src="images/frozen.png" alt="frozen_icon">
+            </article>
+							<article class="work_time">
+								<p>Ми працюємо цілодобово і розмовляємо іноземними мовами</p>
+								<img width="50" height="50" src="images/time.png" alt="time_icon">
+            </article>
+
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer-left">
+				<img src="images/synor_trans_logistic_logo.png" width="150" alt="synor_trans_logistic_logo">
+				<p class="footer-links">
+					<a href="#" class="link-1">Про нас</a>
+					<a href="#">Послуги</a>
+					<a href="#">Співпраця</a>
+					<a href="#">Контакти</a>
+				</p>
+				<p class="footer-company-name">SynorTransLogistic © 2018</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<img src="images/pin.png" width="30" alt="location_icon">
+					<i class="fa fa-map-marker"></i>
+					<p><span>81110 Зимна Вода</span> Львівська обл, Україна</p>
+				</div>
+				<div>
+					<img src="images/phone-call.png" width="30" alt="phone_icon">
+					<i class="fa fa-phone"></i>
+					<p>+38987100000</p>
+				</div>
+				<div>
+					<img src="images/email.png" width="30" alt="email_icon">
+					<i class="fa fa-envelope"></i>
+					<p><a href="yurasynor@gmail.com">synor_trans_logistic@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p> Прорахувати вартість перевезення та отримати консультацію</p>
+				<form action="/yurasynor@gmail.com" method="post">
+					<ul>
+						<li>
+							<label for="name">Ім`я:</label>
+							<input type="text" id="name" name="user_name">
+                    </li>
+						<li>
+							<label for="mail">Телефон:</label>
+							<input type="tel" id="tel" name="user_phone">
+                    </li>
+						<li>
+							<label for="mail">E-mail:</label>
+							<input type="email" id="mail" name="user_email">
+                    </li>
+						<li>
+							<label for="msg">Повідомлення:</label>
+							<textarea id="msg" name="user_message"></textarea>
+						</li>
+					</ul>
+					<p><input type="submit" value="Надіслати"></p>
+				</form>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+			integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous">
+		</script>
 </body>
+
 </html>
