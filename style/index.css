@@ -9,12 +9,19 @@ header img {
     margin-left: 50px;
 }
 
-.language {
-    width: 25px;
-    height: 25px;
-   
-}
 
 main {
     background-color: #d9d9d9
 }
+
+.card {
+    
+    background: #737373;
+    float: left;
+    position: relative;
+    width: 30%;
+    height: 500px;
+    padding-bottom: 30%;
+    margin: 1.66%;        
+}
+
